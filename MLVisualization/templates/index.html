@@ -1,0 +1,30 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ML Model Input Form</title>
+</head>
+<body>
+    <h1>ML Model Input Form</h1>
+    <p>Enter the values for your iris below to have a ML model predict what iris you have!</p>
+    
+    <form action="/predict" method="post">
+        <label for="sLength">Sepal Length:</label>
+        <input type="text" id="sLength" name="sLength" required><br>
+
+        <label for="sWidth">Sepal Width:</label>
+        <input type="text" id="sWidth" name="sWidth" required><br>
+
+        <label for="pLength">Petal Length:</label>
+        <input type="text" id="pLength" name="pLength" required><br>
+
+        <label for="pWidth">Petal Width:</label>
+        <input type="text" id="pWidth" name="pWidth" required><br>
+
+        <input type="submit" value="Predict">
+    </form>
+
+</body>
+</html>
