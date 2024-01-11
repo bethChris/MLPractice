@@ -26,7 +26,10 @@ Start list here:
 
 ### TODO CHECKLIST
 - Decide on dataset
-- train model
-- save model (using joblib)
+    - https://www.kaggle.com/datasets/vikashrajluhaniwal/jester-17m-jokes-ratings-dataset?select=jester_ratings.csv 
+
+- clean data set
+- train models
+- save models (using joblib)
 - create index html UI
 - decide on visualization and metrics
